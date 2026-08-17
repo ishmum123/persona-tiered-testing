@@ -46,3 +46,4 @@ Feature: change delivery address before shipment (eCommerce).
 - Prescribing a manual click-through "every deploy" instead of writing the e2e once.
 - Treating tier 3 as a place: edge cases live on tier-1 paths too.
 - Letting manual-QA cases float in reviewers' heads instead of `Manual-QA:` lines in the MR.
+- Reading tier-2 unit coverage as UI-component tests — snapshot/markup tests verify rendering, not behavior. Unit-test the logic (gates, validation, transitions); plain rendering earns nothing.
